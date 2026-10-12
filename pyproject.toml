@@ -1,0 +1,30 @@
+[project]
+name = "telecom-rag-assistance"
+version = "0.1.0"
+description = "Telecom RAG assistant using LangChain, ChromaDB, Hugging Face, and Groq"
+readme = "README.md"
+authors = [
+    { name = "Om_Jangam", email = "om.savalaram.jangam@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-core",
+    "langchain-text-splitters",
+    "langchain-chroma",
+    "langchain-groq",
+    "langchain-huggingface",
+    "pypdf",
+    "sentence-transformers",
+    "python-dotenv",
+    "notebook",
+    "ipykernel",
+    "langchain-ollama>=1.1.0",
+]
+[project.scripts]
+telecom-rag-assistance = "telecom_rag_assistance:main"
+
+[build-system]
+requires = ["uv_build>=0.12.24,<0.13.0"]
+build-backend = "uv_build"
