@@ -46,8 +46,6 @@ git clone https://github.com/OmJangam1513/Telecom_RAG_Assistant
 cd Telecom_RAG_Assistance
 ```
 
-Replace `https://github.com/OmJangam1513/Telecom_RAG_Assistant` with your GitHub repository URL.
-
 ### 2. Install dependencies
 
 If the repository contains `pyproject.toml` and `uv.lock`, run:
